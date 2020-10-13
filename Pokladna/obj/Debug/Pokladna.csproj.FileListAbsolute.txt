@@ -1,0 +1,8 @@
+D:\skola\programování\github\Pokladna\bin\Debug\Pokladna.exe.config
+D:\skola\programování\github\Pokladna\bin\Debug\Pokladna.exe
+D:\skola\programování\github\Pokladna\bin\Debug\Pokladna.pdb
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.csprojAssemblyReference.cache
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.Properties.Resources.resources
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.csproj.GenerateResource.cache
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.exe
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.pdb
