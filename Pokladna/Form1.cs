@@ -21,9 +21,12 @@ namespace Pokladna
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            repositar = new JsonDotaz();
-            repositar = new SqlDotaz();
-            pokladna = repositar.NactiVse();
+            JsonDotaz jsonDotaz = new JsonDotaz("Zaznamy.json");
+            jsonDotaz.VytvorTestData();
+            repositar = jsonDotaz;
+            
+            //repositar = new SqlDotaz();
+            //pokladna = repositar.NactiVse();
         }
     }
 }

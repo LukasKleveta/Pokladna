@@ -6,3 +6,7 @@ D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.Properties.Resources.
 D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.csproj.GenerateResource.cache
 D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.exe
 D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.pdb
+D:\skola\programování\github\Pokladna\bin\Debug\Newtonsoft.Json.dll
+D:\skola\programování\github\Pokladna\bin\Debug\Newtonsoft.Json.xml
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.Form1.resources
+D:\skola\programování\github\Pokladna\obj\Debug\Pokladna.csproj.CopyComplete
