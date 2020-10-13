@@ -29,7 +29,7 @@ namespace Pokladna
             data.Add(new PoklZaznam(4, 4, new DateTime(2020, 5, 21), "Pronájem pole", -8500, data.Last().Zustatek - 8500, ""));
             data.Add(new PoklZaznam(5, 5, new DateTime(2020, 7, 18), "Příjem z banky", 15000, data.Last().Zustatek +15000, ""));
 
-            string json = JsonConvert.SerializeObject(data);
+            string json = JsonConvert.SerializeObject(data, Formatting.Indented);
 
             File.WriteAllText(DataSoubor, json);
 
@@ -38,7 +38,9 @@ namespace Pokladna
 
         public List<PoklZaznam> NactiVse()
         {
-            throw new NotImplementedException();
+            List<PoklZaznam> data;
+            data = JsonConvert.DeserializeObject<List<PoklZaznam>>(File.ReadAllText(DataSoubor));
+            return data;
         }
 
         public PoklZaznam NactiZaznam(int idPoklZaznam)

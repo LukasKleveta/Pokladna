@@ -26,7 +26,11 @@ namespace Pokladna
             repositar = jsonDotaz;
             
             //repositar = new SqlDotaz();
-            //pokladna = repositar.NactiVse();
+            pokladna = repositar.NactiVse();
+            foreach(var p in pokladna)
+            {
+                listView2.Items.Add(p.DoItem());
+            }
         }
     }
 }
