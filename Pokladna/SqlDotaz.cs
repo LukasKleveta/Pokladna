@@ -8,6 +8,11 @@ namespace Pokladna
 {
     public class SqlDotaz : Irepos
     {
+        public List<PoklZaznam> NactiMesic(int rok, int mesic)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<PoklZaznam> NactiVse()
         {
             throw new NotImplementedException();

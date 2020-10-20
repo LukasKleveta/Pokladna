@@ -9,6 +9,7 @@ namespace Pokladna
     public interface Irepos
     {
         List<PoklZaznam> NactiVse();
+        List<PoklZaznam> NactiMesic(int rok, int mesic);
         PoklZaznam NactiZaznam(int idPoklZaznam);
         PoklZaznam VytvorZaznam(PoklZaznam PoklZaznam);
         void UpravZaznam(PoklZaznam poklZaznam);
