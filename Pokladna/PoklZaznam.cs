@@ -23,6 +23,18 @@ namespace Pokladna
         {
             
         }
+
+        public PoklZaznam(DateTime datum, string popisZaznamu, double castka, string poznamka)
+        {
+            IdPoklZaznam = -1;
+            CisloDokladu = -1;
+            Datum = datum;
+            PopisZaznamu = popisZaznamu;
+            Castka = castka;
+            Zustatek = -1;
+            Poznamka = poznamka;
+        }
+
         public ListViewItem DoItem()
         {
             if (Castka > 0)
@@ -39,9 +51,6 @@ namespace Pokladna
         public int CisloDokladu { get; set; }
         public DateTime Datum { get; set; }
         public string PopisZaznamu { get; set; }
-
-        
-
         public double Castka { get; set; }
         public double Zustatek { get; set; }
         public string Poznamka { get; set; }    
